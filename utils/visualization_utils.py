@@ -185,7 +185,7 @@ def draw_bounding_box_on_image(image,
     font = ImageFont.truetype('FreeMono.ttf', 12)
     font_recog = ImageFont.truetype('FreeMono.ttf', thickness*3)
   except IOError:
-    print('image font initialization finished!')
+    #print('image font initialization finished!')
     font = ImageFont.load_default()  # will cause debug warning
     font_recog = ImageFont.load_default()
   # If the total height of the display strings added to the top of the bounding
